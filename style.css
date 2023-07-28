@@ -1,0 +1,90 @@
+/* Reset some default styles */
+*{
+    font-family: 'League Spartan', sans-serif;
+}
+body, h1, h2, h3, p, ul, li {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #010101;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #acf7f8fe;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* sd Styles 2 */ 
+#sd {
+    background-color: #7dfdae;
+    padding: 100px 0;
+    text-align: center;
+}
+
+/*about me 3*/
+#about{
+    background-color: #ffffff;
+}
+
+/* Main Content Styles */
+section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 40px;
+}
+
+/* Projects Section Styles */
+section#projects {
+    background-color: #45ff8c;
+}
+
+/* Contact Section Styles */
+section#contact {
+    background-color: #080808;
+    color: #ffffff;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 768px) {
+    /* Add responsive styles here */
+}
+.social{
+    display: inline-block;
+}
